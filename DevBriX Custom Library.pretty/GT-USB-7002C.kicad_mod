@@ -1,0 +1,285 @@
+(footprint "GT-USB-7002C"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "-40℃~+85℃ 1 1.65mm 10,000 Cycles 24V 5A 6.8mm 6P Black Female Surface Mount, Right Angle Type-C USB 2.0 SMD USB Connectors ROHS")
+	(tags "C5117884 G-Switch GT-USB-7002C USB-C-SMD_GT-USB-7002C")
+	(property "Reference" "REF**"
+		(at 0 -4.035052 0)
+		(layer "F.SilkS")
+		(uuid "7ae61e5e-e7a0-4c76-a8c5-0193248a1e9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 6.03495 0)
+		(layer "F.Fab")
+		(uuid "cabf8b86-6f00-48e1-bdc4-5132ff479d65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2312191005_G-Switch-GT-USB-7002C_C5117884.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d9e51ed5-e1c1-43fc-b671-f83bde58ca1e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "-40℃~+85℃ 1 1.65mm 10,000 Cycles 24V 5A 6.8mm 6P Black Female Surface Mount, Right Angle Type-C USB 2.0 SMD USB Connectors ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c2b8bfbd-b3b3-43d8-8607-d614a19b8370")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C5117884"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f73dccc0-d511-4bcf-ad8a-97c5f7fb885f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.500152 1.376378)
+		(end -4.500152 -0.306502)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "14cf3b47-b25a-450e-be2c-193516720817")
+	)
+	(fp_line
+		(start -4.500152 5.03495)
+		(end -4.500152 3.493523)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e48e7175-67ff-48e5-a862-e1376361d590")
+	)
+	(fp_line
+		(start -3.431242 -2.00508)
+		(end -3.649225 -2.00508)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "332815d4-5820-4028-b45d-baaa3494faf7")
+	)
+	(fp_line
+		(start 3.648971 -2.00508)
+		(end 3.431039 -2.00508)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "577df851-9c91-40d8-bccc-1e28ac616504")
+	)
+	(fp_line
+		(start 4.499898 1.376378)
+		(end 4.499898 -0.306502)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "62714f3c-ce98-4973-8472-edd720a47255")
+	)
+	(fp_line
+		(start 4.499898 5.03495)
+		(end -4.500152 5.03495)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1f1ada91-c94a-49d3-8566-5ee0344cebd3")
+	)
+	(fp_line
+		(start 4.499898 5.03495)
+		(end 4.499898 3.493523)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e27d7129-0667-48e6-a1c6-c706694bd7e2")
+	)
+	(fp_circle
+		(center 3.810008 -2.720879)
+		(end 4.009906 -2.720879)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "c3ab0b12-595c-4220-a82a-909b10c8d4d1")
+	)
+	(fp_line
+		(start -5.32 -3.1)
+		(end -5.32 5.28)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "84047b55-7eca-437a-b6cc-768ea97a78b4")
+	)
+	(fp_line
+		(start -5.32 -3.1)
+		(end 5.32 -3.1)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f98258aa-8191-42d5-81e7-fab60ac41d35")
+	)
+	(fp_line
+		(start -5.32 5.28)
+		(end 5.32 5.28)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f4a56391-055f-4b1d-a7dd-6b11948cd3a9")
+	)
+	(fp_line
+		(start 5.32 -3.1)
+		(end 5.32 5.28)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c4b3ffc0-ca52-4d85-b7c1-d5f8a2539d39")
+	)
+	(fp_circle
+		(center 2.667005 -2.232878)
+		(end 2.866904 -2.232878)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "82e7dcb5-5760-45c8-b1ec-5e979af820ee")
+	)
+	(pad "A5" smd roundrect
+		(at -0.500127 -2.355052)
+		(size 0.7 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "8d7ab210-36cd-48c3-a57a-807aa45acab1")
+	)
+	(pad "A9" smd roundrect
+		(at 1.519939 -2.355052)
+		(size 0.8 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "2252dee1-d4bd-44fd-a259-c3ba9dc412e4")
+	)
+	(pad "A12" smd roundrect
+		(at 2.749809 -2.355052)
+		(size 0.9 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "bd99e8ce-ac52-4a5e-acc5-5ccb0d46b9e0")
+	)
+	(pad "B5" smd roundrect
+		(at 0.499873 -2.355052)
+		(size 0.7 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "84b61fe6-3468-4ddb-ba5b-63a09f2002dc")
+	)
+	(pad "B9" smd roundrect
+		(at -1.520193 -2.355052)
+		(size 0.8 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "d48f37db-1512-4082-bd67-e924c1c0a2a0")
+	)
+	(pad "B12" smd roundrect
+		(at -2.750064 -2.355052)
+		(size 0.9 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.25)
+		(uuid "0070952f-7fa5-4f59-8b59-b192f31d0448")
+	)
+	(pad "S1" thru_hole oval
+		(at -4.320041 -1.365024)
+		(size 1 1.7)
+		(drill oval 0.5 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4d3fab71-f298-493d-83d2-22a8b832e894")
+	)
+	(pad "S1" thru_hole oval
+		(at -4.320041 2.335001)
+		(size 1 1.7)
+		(drill oval 0.5 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "cbfd5b12-c3d1-4528-8cc3-74db600cdebb")
+	)
+	(pad "S1" thru_hole oval
+		(at 4.320041 -1.365024)
+		(size 1 1.7)
+		(drill oval 0.5 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ea984bc2-6419-4375-b5ae-faaac82fdec4")
+	)
+	(pad "S1" thru_hole oval
+		(at 4.320041 2.335001)
+		(size 1 1.7)
+		(drill oval 0.5 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8120d57b-fcfb-48a2-9fa9-971fc77908a9")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_CUSTOM_3D_DIR}/GT-USB-7002C.wrl"
+		(offset
+			(xyz 0 -1.4 0.04)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)

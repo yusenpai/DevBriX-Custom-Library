@@ -1,0 +1,298 @@
+(footprint "GT-TC018A-H0375-L1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "-30℃~+85℃ 1.6N 1.9mm 100,000 cycles 12V 3.75mm 4.7mm 50mA Black No Rectangular Button SMD(SMT) Tab SPST Surface Mount, Right Angle With Bracket SMD,4.7x1.9mm Tactile Switches ROHS")
+	(tags "C963235 G-Switch GT-TC018A-H0375-L1 SW-SMD_L4.7-W3.5-P3.35-EH")
+	(property "Reference" "REF**"
+		(at 0 -3.432461 0)
+		(layer "F.SilkS")
+		(uuid "f64fe364-842e-432c-a125-6b74c5d014d7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "GT-TC018A-H0375-L1"
+		(at 0 2.61745 0)
+		(layer "F.Fab")
+		(uuid "d2afaae1-32f7-40a9-a178-99a50ffc8fe3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2304140030_G-Switch-GT-TC018A-H0375-L1_C963235.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "72b3d5e0-9f0a-4c10-8023-3e8d920bdb7e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "-30℃~+85℃ 1.6N 1.9mm 100,000 cycles 12V 3.75mm 4.7mm 50mA Black No Rectangular Button SMD(SMT) Tab SPST Surface Mount, Right Angle With Bracket SMD,4.7x1.9mm Tactile Switches ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cb36b51e-07d4-461e-922a-1e6a13d54ada")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C963235"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7e74d586-2500-4697-8fbc-8d04a03e80db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "G-Switch"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d1d6b7db-80d7-4250-867e-257342804720")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer Part" "GT-TC018A-H0375-L1"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "33286339-2226-41a3-9f42-10d6948d65c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.540005 1.067564)
+		(end -2.540005 -0.086309)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a17aed45-3e13-472c-975e-997cf36bc0ad")
+	)
+	(fp_line
+		(start -2.306147 1.067564)
+		(end -2.540005 1.067564)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c9c402e2-1d31-45b0-90ae-5acb2d9b9607")
+	)
+	(fp_line
+		(start -1 -2.432461)
+		(end -1 -1.494387)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "53c3b333-6581-41f6-85a6-08bb6fcdec9a")
+	)
+	(fp_line
+		(start -1 -2.432461)
+		(end 1 -2.432461)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "92fedd75-b4c3-43e2-bd3a-2c3ee0cb8518")
+	)
+	(fp_line
+		(start 0.088011 -1.494387)
+		(end -1.618872 -1.494387)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "80fa5c75-f3f7-430d-81b4-3a431fd08c89")
+	)
+	(fp_line
+		(start 0.088011 -1.494387)
+		(end 1.618872 -1.494387)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e00c124c-dae9-4a14-8d0e-4fcb3779ca4b")
+	)
+	(fp_line
+		(start 0.088011 1.067564)
+		(end -1.043866 1.067564)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "12937679-bef4-4199-aa23-32a5b834da58")
+	)
+	(fp_line
+		(start 0.088011 1.067564)
+		(end 1.043866 1.067564)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e862060b-19b1-463e-8637-90758bf64245")
+	)
+	(fp_line
+		(start 1 -2.432461)
+		(end 1 -1.512548)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c4b799f5-870d-4f1e-bcdc-161cb47ae517")
+	)
+	(fp_line
+		(start 2.306147 1.067564)
+		(end 2.540005 1.067564)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "98f89a35-b297-4fe6-84ac-c452943cf7a4")
+	)
+	(fp_line
+		(start 2.540005 1.067564)
+		(end 2.540005 -0.086309)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0754ae82-88f0-4ceb-b027-531edf79529a")
+	)
+	(fp_rect
+		(start -2.75 -2.75)
+		(end 2.75 1.7)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "b7fd3a6f-3b50-4e03-8155-2ba686ce4ebe")
+	)
+	(fp_circle
+		(center -0.849886 -0.282449)
+		(end -0.724917 -0.282449)
+		(stroke
+			(width 0.250013)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "369dc721-39d8-44c5-8c8e-e1547e6afa8f")
+	)
+	(fp_circle
+		(center 0.85014 -0.282449)
+		(end 0.975108 -0.282449)
+		(stroke
+			(width 0.250013)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "f185ceb3-7189-4bd6-805b-d43fe21e1d1a")
+	)
+	(fp_poly
+		(pts
+			(xy -1.14892 -2.43114) (xy 1.147244 -2.43114) (xy 1.147244 -1.448158) (xy -1.14638 -1.448158) (xy -1.14638 -1.608179)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "b30e841c-f0af-401c-95d9-7ff9b8e4b7b6")
+	)
+	(pad "" np_thru_hole circle
+		(at -0.849886 -0.282449)
+		(size 0.700025 0.700025)
+		(drill 0.700025)
+		(layers "*.Cu" "*.Mask")
+		(uuid "52c0acb1-9387-4161-acf4-cbef8c300360")
+	)
+	(pad "" np_thru_hole circle
+		(at 0.85014 -0.282449)
+		(size 0.700025 0.700025)
+		(drill 0.700025)
+		(layers "*.Cu" "*.Mask")
+		(uuid "b4a04be9-499c-4d14-850a-e9b266d3764b")
+	)
+	(pad "1" smd rect
+		(at -1.674879 0.91745)
+		(size 0.8 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "90644d6a-3605-4386-92fd-b8ef804ff0a1")
+	)
+	(pad "2" smd rect
+		(at 1.675133 0.91745)
+		(size 0.8 1.4)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3414075d-d152-4e98-a1a9-73bd7639a68c")
+	)
+	(pad "3" smd rect
+		(at -2.249936 -0.91745)
+		(size 0.8 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8e98f6fa-f84d-49af-b3a8-f760913c55da")
+	)
+	(pad "4" smd rect
+		(at 2.249936 -0.91745)
+		(size 0.8 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "ef5879e0-3228-403b-90bf-9180f1754f49")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_CUSTOM_3D_DIR}/GT-TC018A-H0375-L1.wrl"
+		(offset
+			(xyz 2.35 1.233816 -0.050313)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

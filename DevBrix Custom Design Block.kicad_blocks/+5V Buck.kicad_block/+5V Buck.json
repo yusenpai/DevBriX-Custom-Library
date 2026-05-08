@@ -1,0 +1,10 @@
+{
+"description": "",
+"keywords": "TPS51396",
+"fields": {
+"Input Voltage": "15-24V",
+"Maximum output current": "8A",
+"Frequency": "1MHz",
+"Mode": "Out of Audio mode"
+}
+}

@@ -1,0 +1,229 @@
+(footprint "Texas_RXP0008A_WQFN-HR-8_1_25x1_5mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "-40℃~+125℃ 1 100mV~5.5V 6A 8.7mΩ Active High Load Switch Over Temperature Protection WQFN-HR-8(1.4x1.4) Power Distribution Switches ROHS")
+	(tags "C3229355 TPS22992RXPR Texas Instruments WQFN-HR-8_L1.5-W1.3-P0.50-TL_RXP0008A")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "deb4861b-41f6-42fe-b077-0b1cc3d98238")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 2 0)
+		(layer "F.Fab")
+		(uuid "6928e5ff-e413-494a-85ff-d55a245e4495")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://datasheet.lcsc.com/lcsc/2302220500_Texas-Instruments-TPS22992RXPR_C3229355.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "945a3c16-cb87-48e5-962b-612125880f52")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "-40℃~+125℃ 1 100mV~5.5V 6A 8.7mΩ Active High Load Switch Over Temperature Protection WQFN-HR-8(1.4x1.4) Power Distribution Switches ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d203890a-088a-43d6-a3de-00b30c9f67cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C3229355"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "80dc18b4-4238-47f7-8762-c1626b319da6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -1 -1)
+		(end -0.350699 -1)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c2ae901e-efc3-4f31-bfc0-aeec7632d90e")
+	)
+	(fp_line
+		(start -1 -0.7746)
+		(end -1 -1)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "920ee665-5837-4960-8d96-facb483c1154")
+	)
+	(fp_line
+		(start -1 1)
+		(end -1 0.7746)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "041a653f-c780-4332-aeab-3002cd644fdf")
+	)
+	(fp_line
+		(start -0.350699 1)
+		(end -1 1)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8f371396-e815-43c1-9f17-9cd672dc6b40")
+	)
+	(fp_line
+		(start 0.350699 -1)
+		(end 1 -1)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "902bd0a8-9f2a-482e-a342-8ff0ce0bfaf9")
+	)
+	(fp_line
+		(start 1 -1)
+		(end 1 -0.7746)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "583c2fe6-3240-47df-a20e-630ea6eb2c38")
+	)
+	(fp_line
+		(start 1 0.7746)
+		(end 1 1)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "8f0df2e4-2e3d-4ce3-a3c9-844474a72d02")
+	)
+	(fp_line
+		(start 1 1)
+		(end 0.350699 1)
+		(stroke
+			(width 0.254001)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "56d37568-bad6-46a7-8fbd-d0ece70aa9f7")
+	)
+	(fp_circle
+		(center -1.5 -1)
+		(end -1.349987 -1)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "7244fa4c-8e09-4d07-9f76-7ad554df28e2")
+	)
+	(fp_rect
+		(start -1.2 -1.2)
+		(end 1.2 1.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "fc8b2f83-5f7d-4ac9-98ad-ac6de695fe9c")
+	)
+	(fp_circle
+		(center -0.500127 -0.700025)
+		(end -0.400051 -0.700025)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5d78d9a7-b9a6-4ae3-82ad-66d93e346ba3")
+	)
+	(pad "1" smd rect
+		(at -0.6 -0.5)
+		(size 0.450013 0.250013)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "03249658-8dea-44c7-868d-b3b76423784d")
+	)
+	(pad "2" smd rect
+		(at -0.474981 0)
+		(size 0.7 0.250013)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "78feba93-f89d-445a-818d-5b41ba511b8f")
+	)
+	(pad "3" smd rect
+		(at -0.6 0.5)
+		(size 0.450013 0.250013)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a9ea485e-cec7-4350-900a-a877f10386f0")
+	)
+	(pad "4" smd rect
+		(at 0 0.662992)
+		(size 0.250013 0.575006)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e9b3bb05-1683-44a3-9afd-78afeba3ed64")
+	)
+	(pad "5" smd rect
+		(at 0.6 0.5)
+		(size 0.450013 0.250013)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a43af0b7-7707-4b74-b35f-81e26ee7304c")
+	)
+	(pad "6" smd rect
+		(at 0.474981 0)
+		(size 0.7 0.250013)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "f21bb048-9947-4fb4-9e37-2e14073b3f51")
+	)
+	(pad "7" smd rect
+		(at 0.6 -0.5)
+		(size 0.450013 0.250013)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "b4d358e5-3b13-4bae-86a4-dbe7e68cd2d2")
+	)
+	(pad "8" smd rect
+		(at 0 -0.662992)
+		(size 0.250013 0.575006)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e3955303-4706-4143-8bc0-cd09550f20f7")
+	)
+	(embedded_fonts no)
+)
