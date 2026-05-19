@@ -2,10 +2,10 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid "eb7bc3e4-4a58-40f5-80b0-fbcf9bacf52d")
+	(uuid "300319c1-d934-4fb4-ba46-d4b5905ed804")
 	(paper "A4")
 	(lib_symbols
-		(symbol "LMR51450SDRRR_1"
+		(symbol "DevBriX Custom Library:LMR51450SDRRR"
 			(pin_names
 				(offset 1.016)
 			)
@@ -21,14 +21,14 @@
 				)
 			)
 			(property "Value" "LMR51450SDRRR"
-				(at 0 -13.43 0)
+				(at 7.62 2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Package_SON:WSON-12-1EP_3x3mm_P0.5mm_EP1.5x2.5mm"
+			(property "Footprint" "DevBriX Custom Library:WSON-12-DRR0012G"
 				(at 0 0 0)
 				(effects
 					(font
@@ -37,7 +37,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2402291910_Texas-Instruments-LMR51450SDRRR_C6890985.pdf"
+			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr51450.pdf?ts=1779160182879&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLMR51450"
 				(at 0 0 0)
 				(effects
 					(font
@@ -82,6 +82,15 @@
 					(hide yes)
 				)
 			)
+			(property "Check" "OK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "C6890985 LMR51450SDRRR Texas Instruments WSON-12_L3.0-W3.0-P0.50-TL-EP-2"
 				(at 0 0 0)
 				(effects
@@ -91,7 +100,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "LMR51450SDRRR_1_0_1"
+			(symbol "LMR51450SDRRR_0_1"
 				(pin unspecified line
 					(at -2.54 -2.54 0)
 					(length 2.54)
@@ -331,7 +340,7 @@
 					)
 				)
 			)
-			(symbol "LMR51450SDRRR_1_1_1"
+			(symbol "LMR51450SDRRR_1_1"
 				(rectangle
 					(start 0 0)
 					(end 16.51 -19.05)
@@ -346,7 +355,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "custom_lib:C_Small"
+		(symbol "Device:C_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -486,7 +495,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "custom_lib:L_Small"
+		(symbol "Device:L_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -650,7 +659,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "custom_lib:R_Small"
+		(symbol "Device:R_Small"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1128,8 +1137,8 @@
 		)
 	)
 	(rectangle
-		(start 25.4 152.4)
-		(end 165.1 194.31)
+		(start 12.7 17.78)
+		(end 152.4 59.69)
 		(stroke
 			(width 0)
 			(type default)
@@ -1141,7 +1150,7 @@
 	)
 	(text "+12V BUCK"
 		(exclude_from_sim no)
-		(at 25.4 151.13 0)
+		(at 12.7 16.51 0)
 		(effects
 			(font
 				(size 2.54 2.54)
@@ -1152,97 +1161,117 @@
 		)
 		(uuid "360978a7-59ee-4353-b3ed-acb9b83fbe74")
 	)
+	(text_box "Vin: 4 - 36V\nVout: 12V\nIout: 5A\nfsw: 200-1000kHz\nFeatures: spread spectrum\nIq: 25uA no load, 6uA shutdown"
+		(exclude_from_sim no)
+		(at 116.84 45.72 0)
+		(size 35.56 13.97)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "7c570e1a-b922-4d24-9b4d-d101b8a7b407")
+	)
 	(junction
-		(at 130.81 165.1)
+		(at 118.11 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "15950f53-86ef-4cef-83d7-380c4bf29ea7")
 	)
 	(junction
-		(at 139.7 165.1)
+		(at 127 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25474412-3d29-41fc-a744-496b5e4c9815")
 	)
 	(junction
-		(at 102.87 165.1)
+		(at 90.17 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "35a4f014-a738-4495-84d6-c11bce45d508")
 	)
 	(junction
-		(at 148.59 172.72)
+		(at 135.89 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42c7f00e-3063-436d-aad5-43088d223305")
 	)
 	(junction
-		(at 121.92 165.1)
+		(at 109.22 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5f377d20-a29b-4b79-826b-dd936fa93fe4")
 	)
 	(junction
-		(at 88.9 185.42)
+		(at 76.2 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "743f801e-b600-469e-a007-2232fb815152")
 	)
 	(junction
-		(at 139.7 172.72)
+		(at 127 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "97711477-2346-4a68-873f-de40d5025167")
 	)
 	(junction
-		(at 48.26 165.1)
+		(at 35.56 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9bf8bf80-f005-49d7-ad61-f9c719132d01")
 	)
 	(junction
-		(at 114.3 179.07)
+		(at 101.6 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c817764d-113b-4d9c-a1e2-abf4a85d893b")
 	)
 	(junction
-		(at 39.37 165.1)
+		(at 26.67 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d64d23ed-d872-4db8-8b46-549fedb231c5")
 	)
 	(junction
-		(at 39.37 172.72)
+		(at 26.67 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0f0acb0-a3fb-4bfb-8820-be6834e47062")
 	)
 	(junction
-		(at 102.87 179.07)
+		(at 90.17 44.45)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e44b7c06-1b09-4e00-9a1e-11f5ea04eed4")
 	)
 	(junction
-		(at 148.59 165.1)
+		(at 135.89 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efb7a25b-7768-4274-8f99-67a0bda742d6")
 	)
 	(junction
-		(at 114.3 165.1)
+		(at 101.6 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f73deb12-f353-443e-acec-50b176815c81")
 	)
 	(no_connect
-		(at 78.74 176.53)
+		(at 66.04 41.91)
 		(uuid "1da1d08b-cb8f-4d6a-9b9b-05f65714e1f0")
 	)
 	(wire
 		(pts
-			(xy 100.33 179.07) (xy 102.87 179.07)
+			(xy 87.63 44.45) (xy 90.17 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1252,7 +1281,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 179.07) (xy 114.3 179.07)
+			(xy 90.17 44.45) (xy 101.6 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1262,7 +1291,17 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 165.1) (xy 114.3 165.1)
+			(xy 55.88 33.02) (xy 66.04 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cde50ba-412c-49b6-9985-38648025d28c")
+	)
+	(wire
+		(pts
+			(xy 99.06 30.48) (xy 101.6 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1272,7 +1311,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 172.72) (xy 102.87 172.72)
+			(xy 87.63 38.1) (xy 90.17 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1282,7 +1321,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 165.1) (xy 106.68 165.1)
+			(xy 90.17 30.48) (xy 93.98 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1292,7 +1331,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 165.1) (xy 121.92 165.1)
+			(xy 101.6 30.48) (xy 109.22 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1302,7 +1341,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 185.42) (xy 88.9 186.69)
+			(xy 76.2 50.8) (xy 76.2 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1312,7 +1351,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 172.72) (xy 39.37 173.99)
+			(xy 26.67 38.1) (xy 26.67 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1322,7 +1361,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 172.72) (xy 148.59 172.72)
+			(xy 127 38.1) (xy 135.89 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1332,7 +1371,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 172.72) (xy 130.81 172.72)
+			(xy 127 38.1) (xy 118.11 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1342,7 +1381,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 165.1) (xy 151.13 165.1)
+			(xy 135.89 30.48) (xy 138.43 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1352,7 +1391,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 185.42) (xy 91.44 184.15)
+			(xy 78.74 50.8) (xy 78.74 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1362,7 +1401,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 185.42) (xy 102.87 186.69)
+			(xy 90.17 50.8) (xy 90.17 52.07)
 		)
 		(stroke
 			(width 0)
@@ -1372,7 +1411,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 172.72) (xy 102.87 171.45)
+			(xy 90.17 38.1) (xy 90.17 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1382,7 +1421,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 165.1) (xy 48.26 165.1)
+			(xy 26.67 30.48) (xy 35.56 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1392,7 +1431,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 179.07) (xy 121.92 177.8)
+			(xy 109.22 44.45) (xy 109.22 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1402,7 +1441,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 171.45) (xy 121.92 172.72)
+			(xy 109.22 36.83) (xy 109.22 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1412,7 +1451,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 165.1) (xy 102.87 166.37)
+			(xy 90.17 30.48) (xy 90.17 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1422,7 +1461,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 179.07) (xy 121.92 179.07)
+			(xy 101.6 44.45) (xy 109.22 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1432,7 +1471,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 166.37) (xy 148.59 165.1)
+			(xy 135.89 31.75) (xy 135.89 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1442,7 +1481,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 172.72) (xy 151.13 172.72)
+			(xy 135.89 38.1) (xy 138.43 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1452,7 +1491,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 173.99) (xy 68.58 173.99)
+			(xy 66.04 39.37) (xy 55.88 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1462,7 +1501,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 171.45) (xy 48.26 172.72)
+			(xy 35.56 36.83) (xy 35.56 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1472,7 +1511,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 172.72) (xy 130.81 171.45)
+			(xy 118.11 38.1) (xy 118.11 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1482,7 +1521,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 165.1) (xy 121.92 166.37)
+			(xy 109.22 30.48) (xy 109.22 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1492,7 +1531,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 171.45) (xy 139.7 172.72)
+			(xy 127 36.83) (xy 127 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1502,7 +1541,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 163.83) (xy 39.37 165.1)
+			(xy 26.67 29.21) (xy 26.67 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1512,7 +1551,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 173.99) (xy 68.58 176.53)
+			(xy 55.88 39.37) (xy 55.88 41.91)
 		)
 		(stroke
 			(width 0)
@@ -1522,7 +1561,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 172.72) (xy 48.26 172.72)
+			(xy 26.67 38.1) (xy 35.56 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1532,7 +1571,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 166.37) (xy 39.37 165.1)
+			(xy 26.67 31.75) (xy 26.67 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1542,7 +1581,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 165.1) (xy 78.74 165.1)
+			(xy 35.56 30.48) (xy 66.04 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1552,7 +1591,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 184.15) (xy 88.9 185.42)
+			(xy 76.2 49.53) (xy 76.2 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1562,7 +1601,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 166.37) (xy 130.81 165.1)
+			(xy 118.11 31.75) (xy 118.11 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1572,7 +1611,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 165.1) (xy 48.26 166.37)
+			(xy 35.56 30.48) (xy 35.56 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1582,7 +1621,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 181.61) (xy 68.58 184.15)
+			(xy 55.88 46.99) (xy 55.88 49.53)
 		)
 		(stroke
 			(width 0)
@@ -1592,7 +1631,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 165.1) (xy 114.3 168.91)
+			(xy 101.6 30.48) (xy 101.6 34.29)
 		)
 		(stroke
 			(width 0)
@@ -1602,7 +1641,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 165.1) (xy 148.59 165.1)
+			(xy 127 30.48) (xy 135.89 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1612,7 +1651,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 172.72) (xy 151.13 173.99)
+			(xy 138.43 38.1) (xy 138.43 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1622,7 +1661,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 171.45) (xy 39.37 172.72)
+			(xy 26.67 36.83) (xy 26.67 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1632,7 +1671,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 185.42) (xy 91.44 185.42)
+			(xy 76.2 50.8) (xy 78.74 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1642,7 +1681,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 173.99) (xy 114.3 179.07)
+			(xy 101.6 39.37) (xy 101.6 44.45)
 		)
 		(stroke
 			(width 0)
@@ -1652,7 +1691,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 165.1) (xy 102.87 165.1)
+			(xy 87.63 30.48) (xy 90.17 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1662,7 +1701,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 163.83) (xy 151.13 165.1)
+			(xy 138.43 29.21) (xy 138.43 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1672,7 +1711,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 165.1) (xy 130.81 165.1)
+			(xy 109.22 30.48) (xy 118.11 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1682,7 +1721,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 179.07) (xy 102.87 180.34)
+			(xy 90.17 44.45) (xy 90.17 45.72)
 		)
 		(stroke
 			(width 0)
@@ -1692,7 +1731,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 165.1) (xy 139.7 165.1)
+			(xy 118.11 30.48) (xy 127 30.48)
 		)
 		(stroke
 			(width 0)
@@ -1702,7 +1741,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 172.72) (xy 148.59 171.45)
+			(xy 135.89 38.1) (xy 135.89 36.83)
 		)
 		(stroke
 			(width 0)
@@ -1712,7 +1751,7 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 165.1) (xy 139.7 166.37)
+			(xy 127 30.48) (xy 127 31.75)
 		)
 		(stroke
 			(width 0)
@@ -1720,31 +1759,19 @@
 		)
 		(uuid "fa3d180f-c4da-4af4-9ecb-df5118f191ff")
 	)
-	(global_label "~{SYS_RESET}"
-		(shape input)
-		(at 78.74 167.64 180)
-		(fields_autoplaced yes)
+	(label "EN"
+		(at 55.88 33.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "2211abbb-577c-47ea-9735-359d32f796a1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 65.5345 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
+		(uuid "f5fdcd51-b586-4bf1-8e72-f39edf8a3442")
 	)
 	(symbol
-		(lib_name "LMR51450SDRRR_1")
 		(lib_id "DevBriX Custom Library:LMR51450SDRRR")
-		(at 81.28 162.56 0)
+		(at 68.58 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1752,8 +1779,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0fa0b32a-3faf-4663-a922-fe5f308607b1")
-		(property "Reference" "U7"
-			(at 89.535 157.48 0)
+		(property "Reference" "U1"
+			(at 76.835 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1761,15 +1788,15 @@
 			)
 		)
 		(property "Value" "LMR51450SDRRR"
-			(at 89.535 160.02 0)
+			(at 76.835 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Package_SON:WSON-12-1EP_3x3mm_P0.5mm_EP1.5x2.5mm"
-			(at 81.28 162.56 0)
+		(property "Footprint" "DevBriX Custom Library:WSON-12-DRR0012G"
+			(at 68.58 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1777,8 +1804,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://wmsc.lcsc.com/wmsc/upload/file/pdf/v2/lcsc/2402291910_Texas-Instruments-LMR51450SDRRR_C6890985.pdf"
-			(at 81.28 162.56 0)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lmr51450.pdf?ts=1779160182879&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FLMR51450"
+			(at 68.58 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1787,7 +1814,7 @@
 			)
 		)
 		(property "Description" "36-V, 5-A Synchronous Step-Down DC/DC Converter With Low IQ"
-			(at 81.28 162.56 0)
+			(at 68.58 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1796,7 +1823,7 @@
 			)
 		)
 		(property "LCSC" "C6890985"
-			(at 81.28 162.56 0)
+			(at 68.58 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1805,7 +1832,7 @@
 			)
 		)
 		(property "Manufacturer" "Texas Instruments"
-			(at 81.28 162.56 0)
+			(at 68.58 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1814,7 +1841,16 @@
 			)
 		)
 		(property "Manufacturer Part" "LMR51450SDRRR"
-			(at 81.28 162.56 0)
+			(at 68.58 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Check" "OK"
+			(at 68.58 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1862,6 +1898,12 @@
 			(uuid "e20d0685-1727-48e8-99fe-825700c8ad83")
 		)
 		(instances
+			(project "Buck 12V"
+				(path "/300319c1-d934-4fb4-ba46-d4b5905ed804"
+					(reference "U1")
+					(unit 1)
+				)
+			)
 			(project "jetson_orin_nano_carrier"
 				(path "/76ec7411-b68f-4599-9c46-b3300b06d92a/08c4b994-611c-47f7-afea-1d5da233ecaf"
 					(reference "U7")
@@ -1871,8 +1913,8 @@
 		)
 	)
 	(symbol
-		(lib_id "custom_lib:C_Small")
-		(at 148.59 168.91 0)
+		(lib_id "Device:C_Small")
+		(at 135.89 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1880,8 +1922,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14785330-9fc1-4c6e-bbcb-6b45ae01916a")
-		(property "Reference" "C41"
-			(at 151.13 166.3762 0)
+		(property "Reference" "C6"
+			(at 138.43 31.7562 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1890,7 +1932,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 151.13 168.9162 0)
+			(at 138.43 34.2962 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1898,8 +1940,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom_lib:C_0402_1005Metric"
-			(at 148.59 168.91 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 135.89 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1908,7 +1950,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 148.59 168.91 0)
+			(at 135.89 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1917,7 +1959,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 148.59 168.91 0)
+			(at 135.89 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1926,12 +1968,21 @@
 			)
 		)
 		(property "Rating" "25V"
-			(at 151.13 171.4562 0)
+			(at 138.43 36.8362 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(property "LCSC" "C100072"
+			(at 135.89 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "2"
@@ -1941,6 +1992,12 @@
 			(uuid "22aebafb-d2a1-4bfc-b136-4693d9a22723")
 		)
 		(instances
+			(project "Buck 12V"
+				(path "/300319c1-d934-4fb4-ba46-d4b5905ed804"
+					(reference "C6")
+					(unit 1)
+				)
+			)
 			(project "jetson_orin_nano_carrier"
 				(path "/76ec7411-b68f-4599-9c46-b3300b06d92a/08c4b994-611c-47f7-afea-1d5da233ecaf"
 					(reference "C41")
@@ -1950,8 +2007,8 @@
 		)
 	)
 	(symbol
-		(lib_id "custom_lib:R_Small")
-		(at 114.3 171.45 180)
+		(lib_id "Device:R_Small")
+		(at 101.6 36.83 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1959,8 +2016,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1d850230-9988-43df-9123-211dc95f52a1")
-		(property "Reference" "R19"
-			(at 116.84 170.1799 0)
+		(property "Reference" "R2"
+			(at 104.14 35.5599 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -1969,7 +2026,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 116.84 172.7199 0)
+			(at 104.14 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1977,8 +2034,8 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "custom_lib:R_0402_1005Metric"
-			(at 114.3 171.45 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 101.6 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1987,7 +2044,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 171.45 0)
+			(at 101.6 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1996,7 +2053,16 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 114.3 171.45 0)
+			(at 101.6 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C270658"
+			(at 101.6 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2011,6 +2077,12 @@
 			(uuid "df685439-808c-46e0-ae3c-4045efb32ab7")
 		)
 		(instances
+			(project "Buck 12V"
+				(path "/300319c1-d934-4fb4-ba46-d4b5905ed804"
+					(reference "R2")
+					(unit 1)
+				)
+			)
 			(project "jetson_orin_nano_carrier"
 				(path "/76ec7411-b68f-4599-9c46-b3300b06d92a/08c4b994-611c-47f7-afea-1d5da233ecaf"
 					(reference "R19")
@@ -2021,7 +2093,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 39.37 173.99 0)
+		(at 26.67 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2029,8 +2101,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20d483b1-dada-41e8-8747-d4d047a0a84e")
-		(property "Reference" "#PWR045"
-			(at 39.37 180.34 0)
+		(property "Reference" "#PWR03"
+			(at 26.67 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2039,7 +2111,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 39.37 179.07 0)
+			(at 26.67 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2048,7 +2120,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 173.99 0)
+			(at 26.67 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2057,7 +2129,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 173.99 0)
+			(at 26.67 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2066,7 +2138,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 39.37 173.99 0)
+			(at 26.67 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2078,6 +2150,12 @@
 			(uuid "d87924e8-6c24-4dbc-9413-4a23e0eab601")
 		)
 		(instances
+			(project "Buck 12V"
+				(path "/300319c1-d934-4fb4-ba46-d4b5905ed804"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
 			(project "jetson_orin_nano_carrier"
 				(path "/76ec7411-b68f-4599-9c46-b3300b06d92a/08c4b994-611c-47f7-afea-1d5da233ecaf"
 					(reference "#PWR045")
@@ -2088,7 +2166,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 102.87 186.69 0)
+		(at 90.17 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2096,8 +2174,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2bc0e131-1cd9-4f63-b0bf-24929ab40945")
-		(property "Reference" "#PWR049"
-			(at 102.87 193.04 0)
+		(property "Reference" "#PWR07"
+			(at 90.17 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2106,7 +2184,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 102.87 191.77 0)
+			(at 90.17 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2115,7 +2193,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 102.87 186.69 0)
+			(at 90.17 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2124,7 +2202,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 102.87 186.69 0)
+			(at 90.17 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2133,7 +2211,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 102.87 186.69 0)
+			(at 90.17 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2145,6 +2223,12 @@
 			(uuid "13a07bb5-1566-48e8-9fbf-b318e9857422")
 		)
 		(instances
+			(project "Buck 12V"
+				(path "/300319c1-d934-4fb4-ba46-d4b5905ed804"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
 			(project "jetson_orin_nano_carrier"
 				(path "/76ec7411-b68f-4599-9c46-b3300b06d92a/08c4b994-611c-47f7-afea-1d5da233ecaf"
 					(reference "#PWR049")
@@ -2154,16 +2238,16 @@
 		)
 	)
 	(symbol
-		(lib_id "custom_lib:C_Small")
-		(at 39.37 168.91 0)
+		(lib_id "Device:C_Small")
+		(at 26.67 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "2c7e4f96-ff7b-4220-8a0f-96fcf387ec01")
-		(property "Reference" "C36"
-			(at 41.148 166.37 0)
+		(property "Reference" "C1"
+			(at 28.448 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2172,7 +2256,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 41.148 168.91 0)
+			(at 28.448 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2180,8 +2264,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom_lib:C_0805_2012Metric"
-			(at 39.37 168.91 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 26.67 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2190,7 +2274,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 39.37 168.91 0)
+			(at 26.67 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2199,7 +2283,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 39.37 168.91 0)
+			(at 26.67 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2208,7 +2292,7 @@
 			)
 		)
 		(property "Rating" "50V"
-			(at 41.148 171.45 0)
+			(at 28.448 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2217,7 +2301,7 @@
 			)
 		)
 		(property "LCSC" "C2932476"
-			(at 39.37 168.91 0)
+			(at 26.67 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2232,6 +2316,12 @@
 			(uuid "706c0d49-ce04-474a-82b7-57c9dacbb0bd")
 		)
 		(instances
+			(project "Buck 12V"
+				(path "/300319c1-d934-4fb4-ba46-d4b5905ed804"
+					(reference "C1")
+					(unit 1)
+				)
+			)
 			(project "jetson_orin_nano_carrier"
 				(path "/76ec7411-b68f-4599-9c46-b3300b06d92a/08c4b994-611c-47f7-afea-1d5da233ecaf"
 					(reference "C36")
@@ -2242,7 +2332,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 68.58 184.15 0)
+		(at 55.88 49.53 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2250,8 +2340,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c9ab8af-e55b-41d1-8d2c-a0485c7b37eb")
-		(property "Reference" "#PWR047"
-			(at 68.58 190.5 0)
+		(property "Reference" "#PWR05"
+			(at 55.88 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2260,7 +2350,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 189.23 0)
+			(at 55.88 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2269,7 +2359,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 184.15 0)
+			(at 55.88 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2278,7 +2368,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 184.15 0)
+			(at 55.88 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2287,7 +2377,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 68.58 184.15 0)
+			(at 55.88 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2299,6 +2389,12 @@
 			(uuid "71769fce-c74f-4be0-b44c-fc3faaf1971a")
 		)
 		(instances
+			(project "Buck 12V"
+				(path "/300319c1-d934-4fb4-ba46-d4b5905ed804"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
 			(project "jetson_orin_nano_carrier"
 				(path "/76ec7411-b68f-4599-9c46-b3300b06d92a/08c4b994-611c-47f7-afea-1d5da233ecaf"
 					(reference "#PWR047")
@@ -2309,7 +2405,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 151.13 173.99 0)
+		(at 138.43 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2317,8 +2413,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ee02f12-06b7-4765-8c45-a258aa0eb791")
-		(property "Reference" "#PWR046"
-			(at 151.13 180.34 0)
+		(property "Reference" "#PWR04"
+			(at 138.43 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2327,7 +2423,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 151.13 179.07 0)
+			(at 138.43 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2336,7 +2432,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 173.99 0)
+			(at 138.43 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2345,7 +2441,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 173.99 0)
+			(at 138.43 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2354,7 +2450,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 151.13 173.99 0)
+			(at 138.43 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2366,6 +2462,12 @@
 			(uuid "1aa779e4-39b0-489f-ae91-67f35d71e1c6")
 		)
 		(instances
+			(project "Buck 12V"
+				(path "/300319c1-d934-4fb4-ba46-d4b5905ed804"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
 			(project "jetson_orin_nano_carrier"
 				(path "/76ec7411-b68f-4599-9c46-b3300b06d92a/08c4b994-611c-47f7-afea-1d5da233ecaf"
 					(reference "#PWR046")
@@ -2375,16 +2477,16 @@
 		)
 	)
 	(symbol
-		(lib_id "custom_lib:C_Small")
-		(at 48.26 168.91 0)
+		(lib_id "Device:C_Small")
+		(at 35.56 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "4ad6b61f-5a67-4883-9713-fa47364d7d3a")
-		(property "Reference" "C37"
-			(at 50.038 166.37 0)
+		(property "Reference" "C2"
+			(at 37.338 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2393,7 +2495,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 50.038 168.91 0)
+			(at 37.338 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2401,8 +2503,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom_lib:C_0402_1005Metric"
-			(at 48.26 168.91 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 35.56 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2411,7 +2513,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 48.26 168.91 0)
+			(at 35.56 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2420,7 +2522,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 48.26 168.91 0)
+			(at 35.56 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2429,7 +2531,7 @@
 			)
 		)
 		(property "LCSC" "C307331"
-			(at 48.26 168.91 0)
+			(at 35.56 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2438,7 +2540,7 @@
 			)
 		)
 		(property "Rating" "50V"
-			(at 50.038 171.45 0)
+			(at 37.338 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2453,6 +2555,12 @@
 			(uuid "86c48f3f-db48-4d62-bcd3-e1598f7a1ac9")
 		)
 		(instances
+			(project "Buck 12V"
+				(path "/300319c1-d934-4fb4-ba46-d4b5905ed804"
+					(reference "C2")
+					(unit 1)
+				)
+			)
 			(project "jetson_orin_nano_carrier"
 				(path "/76ec7411-b68f-4599-9c46-b3300b06d92a/08c4b994-611c-47f7-afea-1d5da233ecaf"
 					(reference "C37")
@@ -2462,16 +2570,16 @@
 		)
 	)
 	(symbol
-		(lib_id "custom_lib:C_Small")
-		(at 130.81 168.91 0)
+		(lib_id "Device:C_Small")
+		(at 118.11 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "556405c9-a743-498d-aee9-46cb2543ea87")
-		(property "Reference" "C39"
-			(at 132.588 166.37 0)
+		(property "Reference" "C4"
+			(at 119.888 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2480,7 +2588,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 132.588 168.91 0)
+			(at 119.888 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2488,8 +2596,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom_lib:C_0805_2012Metric"
-			(at 130.81 168.91 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 118.11 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2498,7 +2606,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 130.81 168.91 0)
+			(at 118.11 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2507,7 +2615,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 130.81 168.91 0)
+			(at 118.11 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2516,7 +2624,7 @@
 			)
 		)
 		(property "Rating" "25V"
-			(at 132.588 171.45 0)
+			(at 119.888 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2524,8 +2632,8 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C2932476"
-			(at 130.81 168.91 0)
+		(property "LCSC" "C96446"
+			(at 118.11 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2540,6 +2648,12 @@
 			(uuid "2cc5a3d7-96d5-4abd-84ec-8347fc057579")
 		)
 		(instances
+			(project "Buck 12V"
+				(path "/300319c1-d934-4fb4-ba46-d4b5905ed804"
+					(reference "C4")
+					(unit 1)
+				)
+			)
 			(project "jetson_orin_nano_carrier"
 				(path "/76ec7411-b68f-4599-9c46-b3300b06d92a/08c4b994-611c-47f7-afea-1d5da233ecaf"
 					(reference "C39")
@@ -2550,15 +2664,15 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 39.37 163.83 0)
+		(at 26.67 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "7082b548-c84a-4e32-a07b-578e9359c096")
-		(property "Reference" "#PWR043"
-			(at 39.37 167.64 0)
+		(property "Reference" "#PWR01"
+			(at 26.67 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2567,7 +2681,7 @@
 			)
 		)
 		(property "Value" "VSNK"
-			(at 39.37 160.02 0)
+			(at 26.67 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2575,7 +2689,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 39.37 163.83 0)
+			(at 26.67 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2584,7 +2698,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 39.37 163.83 0)
+			(at 26.67 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2593,7 +2707,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 39.37 163.83 0)
+			(at 26.67 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2605,6 +2719,12 @@
 			(uuid "dbefcfee-6672-4d9b-ad4c-d32374c82259")
 		)
 		(instances
+			(project "Buck 12V"
+				(path "/300319c1-d934-4fb4-ba46-d4b5905ed804"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
 			(project "jetson_orin_nano_carrier"
 				(path "/76ec7411-b68f-4599-9c46-b3300b06d92a/08c4b994-611c-47f7-afea-1d5da233ecaf"
 					(reference "#PWR043")
@@ -2614,8 +2734,8 @@
 		)
 	)
 	(symbol
-		(lib_id "custom_lib:R_Small")
-		(at 121.92 168.91 0)
+		(lib_id "Device:R_Small")
+		(at 109.22 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2623,8 +2743,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94497fa9-c93e-4a2d-9aff-5312dc8c789f")
-		(property "Reference" "R18"
-			(at 124.46 167.6399 0)
+		(property "Reference" "R1"
+			(at 111.76 33.0199 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -2633,7 +2753,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 124.46 170.1799 0)
+			(at 111.76 35.5599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2642,7 +2762,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 121.92 168.91 0)
+			(at 109.22 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2651,7 +2771,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 168.91 0)
+			(at 109.22 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2660,7 +2780,16 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 121.92 168.91 0)
+			(at 109.22 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C25543"
+			(at 109.22 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2675,6 +2804,12 @@
 			(uuid "55521e2c-7e93-436d-bdd8-20b91d6ae7cc")
 		)
 		(instances
+			(project "Buck 12V"
+				(path "/300319c1-d934-4fb4-ba46-d4b5905ed804"
+					(reference "R1")
+					(unit 1)
+				)
+			)
 			(project "jetson_orin_nano_carrier"
 				(path "/76ec7411-b68f-4599-9c46-b3300b06d92a/08c4b994-611c-47f7-afea-1d5da233ecaf"
 					(reference "R18")
@@ -2684,8 +2819,8 @@
 		)
 	)
 	(symbol
-		(lib_id "custom_lib:L_Small")
-		(at 109.22 165.1 90)
+		(lib_id "Device:L_Small")
+		(at 96.52 30.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2693,8 +2828,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94c4d83e-511e-4224-99d2-33ae87a3c2f7")
-		(property "Reference" "L3"
-			(at 109.22 160.02 90)
+		(property "Reference" "L1"
+			(at 96.52 25.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2702,15 +2837,15 @@
 			)
 		)
 		(property "Value" "6.8uH"
-			(at 109.22 162.56 90)
+			(at 96.52 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "custom_lib:L_Coilcraft_XxL4020"
-			(at 109.22 165.1 0)
+		(property "Footprint" "Inductor_SMD:L_Changjiang_FXL0640"
+			(at 96.52 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2719,7 +2854,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 165.1 0)
+			(at 96.52 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2728,7 +2863,25 @@
 			)
 		)
 		(property "Description" "Inductor, small symbol"
-			(at 109.22 165.1 0)
+			(at 96.52 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "5A"
+			(at 96.52 30.48 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C53426759"
+			(at 96.52 30.48 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2743,6 +2896,12 @@
 			(uuid "67c6b4d6-3feb-4b3e-87f8-7f38f335a347")
 		)
 		(instances
+			(project "Buck 12V"
+				(path "/300319c1-d934-4fb4-ba46-d4b5905ed804"
+					(reference "L1")
+					(unit 1)
+				)
+			)
 			(project "jetson_orin_nano_carrier"
 				(path "/76ec7411-b68f-4599-9c46-b3300b06d92a/08c4b994-611c-47f7-afea-1d5da233ecaf"
 					(reference "L3")
@@ -2752,8 +2911,8 @@
 		)
 	)
 	(symbol
-		(lib_id "custom_lib:C_Small")
-		(at 121.92 175.26 0)
+		(lib_id "Device:C_Small")
+		(at 109.22 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2761,8 +2920,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96fae9da-7388-42fa-a87d-30c7d51e1e9c")
-		(property "Reference" "C42"
-			(at 124.46 173.9962 0)
+		(property "Reference" "C7"
+			(at 111.76 39.3762 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2771,7 +2930,7 @@
 			)
 		)
 		(property "Value" "33pF"
-			(at 124.46 176.5362 0)
+			(at 111.76 41.9162 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2779,8 +2938,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom_lib:C_0402_1005Metric"
-			(at 121.92 175.26 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 109.22 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2789,7 +2948,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 121.92 175.26 0)
+			(at 109.22 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2798,7 +2957,16 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 121.92 175.26 0)
+			(at 109.22 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C70465"
+			(at 109.22 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2813,6 +2981,12 @@
 			(uuid "8b0ca00e-abac-4dde-b69a-7afd2a263e51")
 		)
 		(instances
+			(project "Buck 12V"
+				(path "/300319c1-d934-4fb4-ba46-d4b5905ed804"
+					(reference "C7")
+					(unit 1)
+				)
+			)
 			(project "jetson_orin_nano_carrier"
 				(path "/76ec7411-b68f-4599-9c46-b3300b06d92a/08c4b994-611c-47f7-afea-1d5da233ecaf"
 					(reference "C42")
@@ -2822,8 +2996,8 @@
 		)
 	)
 	(symbol
-		(lib_id "custom_lib:R_Small")
-		(at 68.58 179.07 0)
+		(lib_id "Device:R_Small")
+		(at 55.88 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2831,8 +3005,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a32a9c00-c82a-4d2f-a9ad-ba829ac567e9")
-		(property "Reference" "R20"
-			(at 71.12 177.7999 0)
+		(property "Reference" "R3"
+			(at 58.42 43.1799 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -2841,7 +3015,7 @@
 			)
 		)
 		(property "Value" "0R"
-			(at 71.12 180.3399 0)
+			(at 58.42 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2850,7 +3024,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 68.58 179.07 0)
+			(at 55.88 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2859,7 +3033,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 179.07 0)
+			(at 55.88 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2868,7 +3042,16 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 68.58 179.07 0)
+			(at 55.88 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C21376"
+			(at 55.88 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2883,6 +3066,12 @@
 			(uuid "b2df6aa9-25d3-4c78-8098-48380660eff8")
 		)
 		(instances
+			(project "Buck 12V"
+				(path "/300319c1-d934-4fb4-ba46-d4b5905ed804"
+					(reference "R3")
+					(unit 1)
+				)
+			)
 			(project "jetson_orin_nano_carrier"
 				(path "/76ec7411-b68f-4599-9c46-b3300b06d92a/08c4b994-611c-47f7-afea-1d5da233ecaf"
 					(reference "R20")
@@ -2893,7 +3082,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 88.9 186.69 0)
+		(at 76.2 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2901,8 +3090,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c4506cb1-d1e0-4636-88c0-6e6de87fbcb0")
-		(property "Reference" "#PWR048"
-			(at 88.9 193.04 0)
+		(property "Reference" "#PWR06"
+			(at 76.2 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2911,7 +3100,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 88.9 191.77 0)
+			(at 76.2 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2920,7 +3109,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 186.69 0)
+			(at 76.2 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2929,7 +3118,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 186.69 0)
+			(at 76.2 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2938,7 +3127,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 186.69 0)
+			(at 76.2 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2950,6 +3139,12 @@
 			(uuid "7610ecc3-ac7f-4a2c-82ab-72b3847c803b")
 		)
 		(instances
+			(project "Buck 12V"
+				(path "/300319c1-d934-4fb4-ba46-d4b5905ed804"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
 			(project "jetson_orin_nano_carrier"
 				(path "/76ec7411-b68f-4599-9c46-b3300b06d92a/08c4b994-611c-47f7-afea-1d5da233ecaf"
 					(reference "#PWR048")
@@ -2960,15 +3155,15 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 151.13 163.83 0)
+		(at 138.43 29.21 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "c4ea1d3d-4e24-4be6-b6a9-70a60de99168")
-		(property "Reference" "#PWR044"
-			(at 151.13 167.64 0)
+		(property "Reference" "#PWR02"
+			(at 138.43 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2977,7 +3172,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 151.13 160.02 0)
+			(at 138.43 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2985,7 +3180,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 151.13 163.83 0)
+			(at 138.43 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2994,7 +3189,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 163.83 0)
+			(at 138.43 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3003,7 +3198,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 151.13 163.83 0)
+			(at 138.43 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3015,6 +3210,12 @@
 			(uuid "8f436521-3068-44db-a8e3-ba2eedba28da")
 		)
 		(instances
+			(project "Buck 12V"
+				(path "/300319c1-d934-4fb4-ba46-d4b5905ed804"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
 			(project "jetson_orin_nano_carrier"
 				(path "/76ec7411-b68f-4599-9c46-b3300b06d92a/08c4b994-611c-47f7-afea-1d5da233ecaf"
 					(reference "#PWR044")
@@ -3024,16 +3225,16 @@
 		)
 	)
 	(symbol
-		(lib_id "custom_lib:C_Small")
-		(at 139.7 168.91 0)
+		(lib_id "Device:C_Small")
+		(at 127 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(uuid "d8de239f-0e47-4e4b-806f-b1d27eb7fce0")
-		(property "Reference" "C40"
-			(at 141.478 166.37 0)
+		(property "Reference" "C5"
+			(at 128.778 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3042,7 +3243,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 141.478 168.91 0)
+			(at 128.778 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3050,8 +3251,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom_lib:C_0805_2012Metric"
-			(at 139.7 168.91 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 127 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3060,7 +3261,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 139.7 168.91 0)
+			(at 127 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3069,7 +3270,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 139.7 168.91 0)
+			(at 127 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3078,7 +3279,7 @@
 			)
 		)
 		(property "Rating" "25V"
-			(at 141.478 171.45 0)
+			(at 128.778 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3086,8 +3287,8 @@
 				(justify left)
 			)
 		)
-		(property "LCSC" "C2932476"
-			(at 139.7 168.91 0)
+		(property "LCSC" "C96446"
+			(at 127 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3102,6 +3303,12 @@
 			(uuid "5799dbd4-d0a0-488d-af74-8a66ad0cb68d")
 		)
 		(instances
+			(project "Buck 12V"
+				(path "/300319c1-d934-4fb4-ba46-d4b5905ed804"
+					(reference "C5")
+					(unit 1)
+				)
+			)
 			(project "jetson_orin_nano_carrier"
 				(path "/76ec7411-b68f-4599-9c46-b3300b06d92a/08c4b994-611c-47f7-afea-1d5da233ecaf"
 					(reference "C40")
@@ -3111,8 +3318,8 @@
 		)
 	)
 	(symbol
-		(lib_id "custom_lib:C_Small")
-		(at 102.87 168.91 0)
+		(lib_id "Device:C_Small")
+		(at 90.17 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3120,8 +3327,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dac7aa50-d1de-45c1-bc6a-a173bed50e8e")
-		(property "Reference" "C38"
-			(at 105.41 167.6462 0)
+		(property "Reference" "C3"
+			(at 92.71 33.0262 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3130,7 +3337,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 105.41 170.1862 0)
+			(at 92.71 35.5662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3138,8 +3345,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom_lib:C_0402_1005Metric"
-			(at 102.87 168.91 0)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 90.17 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3148,7 +3355,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 168.91 0)
+			(at 90.17 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3157,7 +3364,25 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 102.87 168.91 0)
+			(at 90.17 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Rating" "16V"
+			(at 90.17 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1525"
+			(at 90.17 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3172,6 +3397,12 @@
 			(uuid "26fd075f-d326-489a-bb2f-1a48a96214e4")
 		)
 		(instances
+			(project "Buck 12V"
+				(path "/300319c1-d934-4fb4-ba46-d4b5905ed804"
+					(reference "C3")
+					(unit 1)
+				)
+			)
 			(project "jetson_orin_nano_carrier"
 				(path "/76ec7411-b68f-4599-9c46-b3300b06d92a/08c4b994-611c-47f7-afea-1d5da233ecaf"
 					(reference "C38")
@@ -3181,8 +3412,8 @@
 		)
 	)
 	(symbol
-		(lib_id "custom_lib:R_Small")
-		(at 102.87 182.88 0)
+		(lib_id "Device:R_Small")
+		(at 90.17 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3190,8 +3421,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6ce1bec-8bda-49c9-829e-7eb581a966ff")
-		(property "Reference" "R21"
-			(at 105.41 181.6099 0)
+		(property "Reference" "R4"
+			(at 92.71 46.9899 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -3200,7 +3431,7 @@
 			)
 		)
 		(property "Value" "7.15k"
-			(at 105.41 184.1499 0)
+			(at 92.71 49.5299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3208,8 +3439,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "custom_lib:R_0402_1005Metric"
-			(at 102.87 182.88 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 90.17 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3218,7 +3449,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 102.87 182.88 0)
+			(at 90.17 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3227,7 +3458,16 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
-			(at 102.87 182.88 0)
+			(at 90.17 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C270586"
+			(at 90.17 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3242,6 +3482,12 @@
 			(uuid "8185402e-4c9b-459e-acd4-65fcc71e7d97")
 		)
 		(instances
+			(project "Buck 12V"
+				(path "/300319c1-d934-4fb4-ba46-d4b5905ed804"
+					(reference "R4")
+					(unit 1)
+				)
+			)
 			(project "jetson_orin_nano_carrier"
 				(path "/76ec7411-b68f-4599-9c46-b3300b06d92a/08c4b994-611c-47f7-afea-1d5da233ecaf"
 					(reference "R21")
@@ -3250,4 +3496,10 @@
 			)
 		)
 	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
 )

@@ -1,0 +1,8 @@
+{
+"description": "",
+"keywords": "STUSB4500",
+"fields": {
+"Maximum input Voltage": "24V",
+"Maximum input current": "3A"
+}
+}
