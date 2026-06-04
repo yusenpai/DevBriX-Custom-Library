@@ -71552,7 +71552,7 @@
 			)
 			(polyline
 				(pts
-					(xy 33.02 -2.54) (xy 30.48 -2.54) (xy 30.48 -20.32) (xy 33.02 -20.32)
+					(xy 33.02 -2.54) (xy 30.48 -2.54) (xy 30.48 -66.04) (xy 33.02 -66.04)
 				)
 				(stroke
 					(width 0)
@@ -71564,7 +71564,7 @@
 			)
 			(polyline
 				(pts
-					(xy 33.02 -25.4) (xy 30.48 -25.4) (xy 30.48 -43.18) (xy 33.02 -43.18)
+					(xy 33.02 -68.58) (xy 30.48 -68.58) (xy 30.48 -119.38) (xy 33.02 -119.38)
 				)
 				(stroke
 					(width 0)
@@ -71574,29 +71574,29 @@
 					(type none)
 				)
 			)
+			(text "PS"
+				(at 27.94 -27.94 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(text "PL"
+				(at 27.94 -88.9 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(text "Power"
-				(at 15.24 10.16 0)
+				(at 38.089 -1.7669 0)
 				(effects
 					(font
 						(size 1.905 1.905)
 						(thickness 0.381)
 						(bold yes)
-					)
-				)
-			)
-			(text "0.9V"
-				(at 27.686 -11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(text "1.8V"
-				(at 27.686 -34.29 0)
-				(effects
-					(font
-						(size 1.27 1.27)
 					)
 				)
 			)
@@ -71904,33 +71904,14 @@
 			(pin passive line
 				(at 55.88 -12.7 180)
 				(length 5.08)
-				(name "VCCINT"
+				(name "PS_MGTRAVCC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "H10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -12.7 180)
-				(length 5.08)
-				(hide yes)
-				(name "VCCINT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "H8"
+				(number "F19"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -71942,33 +71923,14 @@
 				(at 55.88 -12.7 180)
 				(length 5.08)
 				(hide yes)
-				(name "VCCINT"
+				(name "PS_MGTRAVCC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "J11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -12.7 180)
-				(length 5.08)
-				(hide yes)
-				(name "VCCINT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J9"
+				(number "H19"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -71980,33 +71942,14 @@
 				(at 55.88 -12.7 180)
 				(length 5.08)
 				(hide yes)
-				(name "VCCINT"
+				(name "PS_MGTRAVCC"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "K8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -12.7 180)
-				(length 5.08)
-				(hide yes)
-				(name "VCCINT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "L11"
+				(number "K19"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -72015,271 +71958,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -12.7 180)
-				(length 5.08)
-				(hide yes)
-				(name "VCCINT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "M8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -12.7 180)
-				(length 5.08)
-				(hide yes)
-				(name "VCCINT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "N11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -12.7 180)
-				(length 5.08)
-				(hide yes)
-				(name "VCCINT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -12.7 180)
-				(length 5.08)
-				(hide yes)
-				(name "VCCINT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -12.7 180)
-				(length 5.08)
-				(hide yes)
-				(name "VCCINT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "R11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -12.7 180)
-				(length 5.08)
-				(hide yes)
-				(name "VCCINT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "R9"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -15.24 180)
-				(length 5.08)
-				(name "VCCINT_IO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "H7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -15.24 180)
-				(length 5.08)
-				(hide yes)
-				(name "VCCINT_IO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -15.24 180)
-				(length 5.08)
-				(hide yes)
-				(name "VCCINT_IO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "L7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -15.24 180)
-				(length 5.08)
-				(hide yes)
-				(name "VCCINT_IO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "M7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -17.78 180)
-				(length 5.08)
-				(name "VCCBRAM"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "N7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -17.78 180)
-				(length 5.08)
-				(hide yes)
-				(name "VCCBRAM"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "R6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -17.78 180)
-				(length 5.08)
-				(hide yes)
-				(name "VCCBRAM"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "R7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -17.78 180)
-				(length 5.08)
-				(hide yes)
-				(name "VCCBRAM"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "T6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -27.94 180)
+				(at 55.88 -20.32 180)
 				(length 5.08)
 				(name "VCC_PSAUX"
 					(effects
@@ -72297,7 +71976,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -27.94 180)
+				(at 55.88 -20.32 180)
 				(length 5.08)
 				(hide yes)
 				(name "VCC_PSAUX"
@@ -72316,7 +71995,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -27.94 180)
+				(at 55.88 -20.32 180)
 				(length 5.08)
 				(hide yes)
 				(name "VCC_PSAUX"
@@ -72335,7 +72014,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -27.94 180)
+				(at 55.88 -20.32 180)
 				(length 5.08)
 				(hide yes)
 				(name "VCC_PSAUX"
@@ -72354,7 +72033,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -30.48 180)
+				(at 55.88 -22.86 180)
 				(length 5.08)
 				(name "VCC_PSADC"
 					(effects
@@ -72372,7 +72051,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -33.02 180)
+				(at 55.88 -25.4 180)
 				(length 5.08)
 				(name "VCC_PSDDR_PLL"
 					(effects
@@ -72390,7 +72069,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -33.02 180)
+				(at 55.88 -25.4 180)
 				(length 5.08)
 				(hide yes)
 				(name "VCC_PSDDR_PLL"
@@ -72409,548 +72088,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -35.56 180)
-				(length 5.08)
-				(name "VCCAUX"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "M6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -38.1 180)
-				(length 5.08)
-				(name "VCCAUX_IO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "J6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -38.1 180)
-				(length 5.08)
-				(hide yes)
-				(name "VCCAUX_IO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "K6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -38.1 180)
-				(length 5.08)
-				(hide yes)
-				(name "VCCAUX_IO"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "L6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -38.1 180)
-				(length 5.08)
-				(hide yes)
-				(name "VCCAUX"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -50.8 180)
-				(length 5.08)
-				(name "VCC_PSPLL"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "L13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -50.8 180)
-				(length 5.08)
-				(hide yes)
-				(name "VCC_PSPLL"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "L14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -50.8 180)
-				(length 5.08)
-				(hide yes)
-				(name "VCC_PSPLL"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "M12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -60.96 180)
-				(length 5.08)
-				(name "VCCO_PSDDR_504"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "AB18"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -60.96 180)
-				(length 5.08)
-				(hide yes)
-				(name "VCCO_PSDDR_504"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -60.96 180)
-				(length 5.08)
-				(hide yes)
-				(name "VCCO_PSDDR_504"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "T20"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -60.96 180)
-				(length 5.08)
-				(hide yes)
-				(name "VCCO_PSDDR_504"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "V16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -60.96 180)
-				(length 5.08)
-				(hide yes)
-				(name "VCCO_PSDDR_504"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "V21"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -60.96 180)
-				(length 5.08)
-				(hide yes)
-				(name "VCCO_PSDDR_504"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "Y17"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -60.96 180)
-				(length 5.08)
-				(hide yes)
-				(name "VCCO_PSDDR_504"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "Y22"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -71.12 180)
-				(length 5.08)
-				(name "VCCO_PSIO0_500"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "AA5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -71.12 180)
-				(length 5.08)
-				(hide yes)
-				(name "VCCO_PSIO0_500"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "V6"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -73.66 180)
-				(length 5.08)
-				(name "VCCO_PSIO1_501"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "C11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -73.66 180)
-				(length 5.08)
-				(hide yes)
-				(name "VCCO_PSIO1_501"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "F10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -76.2 180)
-				(length 5.08)
-				(name "VCCO_PSIO2_502"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "C16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -76.2 180)
-				(length 5.08)
-				(hide yes)
-				(name "VCCO_PSIO2_502"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "D14"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -78.74 180)
-				(length 5.08)
-				(name "VCCO_PSIO3_503"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "G13"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -78.74 180)
-				(length 5.08)
-				(hide yes)
-				(name "VCCO_PSIO3_503"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "H16"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -81.28 180)
-				(length 5.08)
-				(name "VCCO_26"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B8"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -81.28 180)
-				(length 5.08)
-				(hide yes)
-				(name "VCCO_26"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "E7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -83.82 180)
-				(length 5.08)
-				(name "VCCO_65"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -83.82 180)
-				(length 5.08)
-				(hide yes)
-				(name "VCCO_65"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "G3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -83.82 180)
-				(length 5.08)
-				(hide yes)
-				(name "VCCO_65"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "K2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -83.82 180)
-				(length 5.08)
-				(hide yes)
-				(name "VCCO_65"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -93.98 180)
+				(at 55.88 -27.94 180)
 				(length 5.08)
 				(name "PS_MGTRAVTT"
 					(effects
@@ -72968,7 +72106,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -93.98 180)
+				(at 55.88 -27.94 180)
 				(length 5.08)
 				(hide yes)
 				(name "PS_MGTRAVTT"
@@ -72987,7 +72125,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -93.98 180)
+				(at 55.88 -27.94 180)
 				(length 5.08)
 				(hide yes)
 				(name "PS_MGTRAVTT"
@@ -73006,16 +72144,841 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -104.14 180)
+				(at 55.88 -33.02 180)
 				(length 5.08)
-				(name "PS_MGTRAVCC"
+				(name "VCC_PSPLL"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "F19"
+				(number "L13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -33.02 180)
+				(length 5.08)
+				(hide yes)
+				(name "VCC_PSPLL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -33.02 180)
+				(length 5.08)
+				(hide yes)
+				(name "VCC_PSPLL"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M12"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -45.72 180)
+				(length 5.08)
+				(name "VCCO_PSIO0_500"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AA5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -45.72 180)
+				(length 5.08)
+				(hide yes)
+				(name "VCCO_PSIO0_500"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "V6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -48.26 180)
+				(length 5.08)
+				(name "VCCO_PSIO1_501"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -48.26 180)
+				(length 5.08)
+				(hide yes)
+				(name "VCCO_PSIO1_501"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -50.8 180)
+				(length 5.08)
+				(name "VCCO_PSIO2_502"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -50.8 180)
+				(length 5.08)
+				(hide yes)
+				(name "VCCO_PSIO2_502"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D14"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -53.34 180)
+				(length 5.08)
+				(name "VCCO_PSIO3_503"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -53.34 180)
+				(length 5.08)
+				(hide yes)
+				(name "VCCO_PSIO3_503"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -58.42 180)
+				(length 5.08)
+				(name "VCCO_PSDDR_504"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "AB18"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -58.42 180)
+				(length 5.08)
+				(hide yes)
+				(name "VCCO_PSDDR_504"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -58.42 180)
+				(length 5.08)
+				(hide yes)
+				(name "VCCO_PSDDR_504"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "T20"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -58.42 180)
+				(length 5.08)
+				(hide yes)
+				(name "VCCO_PSDDR_504"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "V16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -58.42 180)
+				(length 5.08)
+				(hide yes)
+				(name "VCCO_PSDDR_504"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "V21"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -58.42 180)
+				(length 5.08)
+				(hide yes)
+				(name "VCCO_PSDDR_504"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "Y17"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -58.42 180)
+				(length 5.08)
+				(hide yes)
+				(name "VCCO_PSDDR_504"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "Y22"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -73.66 180)
+				(length 5.08)
+				(name "VCCINT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -73.66 180)
+				(length 5.08)
+				(hide yes)
+				(name "VCCINT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -73.66 180)
+				(length 5.08)
+				(hide yes)
+				(name "VCCINT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -73.66 180)
+				(length 5.08)
+				(hide yes)
+				(name "VCCINT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -73.66 180)
+				(length 5.08)
+				(hide yes)
+				(name "VCCINT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -73.66 180)
+				(length 5.08)
+				(hide yes)
+				(name "VCCINT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -73.66 180)
+				(length 5.08)
+				(hide yes)
+				(name "VCCINT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -73.66 180)
+				(length 5.08)
+				(hide yes)
+				(name "VCCINT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -73.66 180)
+				(length 5.08)
+				(hide yes)
+				(name "VCCINT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P10"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -73.66 180)
+				(length 5.08)
+				(hide yes)
+				(name "VCCINT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -73.66 180)
+				(length 5.08)
+				(hide yes)
+				(name "VCCINT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R11"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -73.66 180)
+				(length 5.08)
+				(hide yes)
+				(name "VCCINT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -76.2 180)
+				(length 5.08)
+				(name "VCCINT_IO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "H7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -76.2 180)
+				(length 5.08)
+				(hide yes)
+				(name "VCCINT_IO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -76.2 180)
+				(length 5.08)
+				(hide yes)
+				(name "VCCINT_IO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -76.2 180)
+				(length 5.08)
+				(hide yes)
+				(name "VCCINT_IO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -78.74 180)
+				(length 5.08)
+				(name "VCCBRAM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "N7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -78.74 180)
+				(length 5.08)
+				(hide yes)
+				(name "VCCBRAM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -78.74 180)
+				(length 5.08)
+				(hide yes)
+				(name "VCCBRAM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "R7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -78.74 180)
+				(length 5.08)
+				(hide yes)
+				(name "VCCBRAM"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "T6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -88.9 180)
+				(length 5.08)
+				(name "VCCAUX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "M6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -91.44 180)
+				(length 5.08)
+				(name "VCCAUX_IO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "J6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -91.44 180)
+				(length 5.08)
+				(hide yes)
+				(name "VCCAUX_IO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -91.44 180)
+				(length 5.08)
+				(hide yes)
+				(name "VCCAUX_IO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "L6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -91.44 180)
+				(length 5.08)
+				(hide yes)
+				(name "VCCAUX"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -101.6 180)
+				(length 5.08)
+				(name "VCCO_26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -101.6 180)
+				(length 5.08)
+				(hide yes)
+				(name "VCCO_26"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -73026,14 +72989,14 @@
 			(pin passive line
 				(at 55.88 -104.14 180)
 				(length 5.08)
-				(name "PS_MGTRAVCC"
+				(name "VCCO_65"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "H19"
+				(number "B3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -73044,14 +73007,15 @@
 			(pin passive line
 				(at 55.88 -104.14 180)
 				(length 5.08)
-				(name "PS_MGTRAVCC"
+				(hide yes)
+				(name "VCCO_65"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "K19"
+				(number "G3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -73060,7 +73024,45 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -114.3 180)
+				(at 55.88 -104.14 180)
+				(length 5.08)
+				(hide yes)
+				(name "VCCO_65"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "K2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -104.14 180)
+				(length 5.08)
+				(hide yes)
+				(name "VCCO_65"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -116.84 180)
 				(length 5.08)
 				(name "VCC_PSBATT"
 					(effects
@@ -73080,6 +73082,24 @@
 			(pin passive line
 				(at 55.88 -119.38 180)
 				(length 5.08)
+				(name "GND_PSADC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "P16"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 55.88 -121.92 180)
+				(length 5.08)
 				(name "GND"
 					(effects
 						(font
@@ -73096,7 +73116,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73115,7 +73135,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73134,7 +73154,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73153,7 +73173,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73172,7 +73192,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73191,7 +73211,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73210,7 +73230,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73229,7 +73249,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73248,7 +73268,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73267,7 +73287,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73286,7 +73306,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73305,7 +73325,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73324,7 +73344,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73343,7 +73363,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73362,7 +73382,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73381,7 +73401,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73400,7 +73420,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73419,7 +73439,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73438,7 +73458,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73457,7 +73477,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73476,7 +73496,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73495,7 +73515,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73514,7 +73534,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73533,7 +73553,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73552,7 +73572,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73571,7 +73591,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73590,7 +73610,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73609,7 +73629,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73628,7 +73648,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73647,7 +73667,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73666,7 +73686,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73685,7 +73705,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73704,7 +73724,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73723,7 +73743,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73742,7 +73762,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73761,7 +73781,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73780,7 +73800,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73799,7 +73819,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73818,7 +73838,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73837,7 +73857,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73856,7 +73876,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73875,7 +73895,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73894,7 +73914,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73913,7 +73933,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73932,7 +73952,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73951,7 +73971,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73970,7 +73990,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -73989,7 +74009,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74008,7 +74028,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74027,7 +74047,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74046,7 +74066,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74065,7 +74085,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74084,7 +74104,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74103,7 +74123,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74122,7 +74142,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74141,7 +74161,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74160,7 +74180,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74179,7 +74199,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74198,7 +74218,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74217,7 +74237,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74236,7 +74256,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74255,7 +74275,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74274,7 +74294,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74293,7 +74313,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74312,7 +74332,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74331,7 +74351,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74350,7 +74370,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74369,7 +74389,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74388,7 +74408,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74407,7 +74427,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74426,7 +74446,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74445,7 +74465,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74464,7 +74484,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74483,7 +74503,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74502,7 +74522,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74521,7 +74541,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74540,7 +74560,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74559,7 +74579,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74578,7 +74598,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74597,7 +74617,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74616,7 +74636,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74635,7 +74655,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74654,7 +74674,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74673,7 +74693,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74692,7 +74712,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74711,7 +74731,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74730,7 +74750,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74749,7 +74769,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74768,7 +74788,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74787,7 +74807,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74806,7 +74826,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74825,7 +74845,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74844,7 +74864,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74863,7 +74883,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74882,7 +74902,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74901,7 +74921,7 @@
 				)
 			)
 			(pin passive line
-				(at 55.88 -119.38 180)
+				(at 55.88 -121.92 180)
 				(length 5.08)
 				(hide yes)
 				(name "GND"
@@ -74912,24 +74932,6 @@
 					)
 				)
 				(number "Y7"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at 55.88 -121.92 180)
-				(length 5.08)
-				(name "GND_PSADC"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "P16"
 					(effects
 						(font
 							(size 1.27 1.27)
