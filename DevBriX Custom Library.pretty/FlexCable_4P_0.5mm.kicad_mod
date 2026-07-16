@@ -1,0 +1,239 @@
+(footprint "FlexCable_4P_0.5mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "72b82925-2d33-40be-8e4d-ec43962b3462")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "FlexCable_4P_0.5mm"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "da39affe-33eb-470e-9fb0-658024604d47")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cbd769ef-7204-4f7a-80bf-d6cc7792ec72")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ad20e18d-6a36-4b9f-a347-d9cad6384d85")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 1.25 -1.75)
+		(end 1.25 -0.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "6ab8204d-a87c-42ce-adf2-ca27319357ba")
+	)
+	(fp_line
+		(start 1.25 -0.5)
+		(end 1 -0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "67b6dc2b-c5cb-48ab-8c4e-5da82d180c06")
+	)
+	(fp_line
+		(start 1.25 -0.5)
+		(end 1.5 -0.75)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Cmts.User")
+		(uuid "c29fd6a2-d64c-4ca1-a837-296cb2ac2e20")
+	)
+	(fp_poly
+		(pts
+			(xy 2.5 2.5)
+			(arc
+				(start 2.5 0.2)
+				(mid 2.441421 0.058579)
+				(end 2.3 0)
+			)
+			(arc
+				(start 0.2 0)
+				(mid 0.058579 0.058579)
+				(end 0 0.2)
+			)
+			(xy 0 2.5)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "Cmts.User")
+		(uuid "d3c08419-5395-4795-abf5-60430e59b6b9")
+	)
+	(fp_line
+		(start 0 3)
+		(end 0 0.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "ebea155e-ae11-464b-ac1a-424b1e742337")
+	)
+	(fp_line
+		(start 0.2 0)
+		(end 2.3 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "5abd3a4b-0c45-4316-ae10-5b748e195c1b")
+	)
+	(fp_line
+		(start 2.5 0.2)
+		(end 2.5 3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "77a6553c-402a-4746-91f2-e85deea25014")
+	)
+	(fp_arc
+		(start 0 0.2)
+		(mid 0.058579 0.058579)
+		(end 0.2 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "03e257aa-3b95-447f-a1a4-1b1c294c077a")
+	)
+	(fp_arc
+		(start 2.3 0)
+		(mid 2.441421 0.058579)
+		(end 2.5 0.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "7ec85bd9-cbd4-4004-92eb-7950f789e529")
+	)
+	(fp_text user "1"
+		(at 0 3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "9f01903f-8c19-4df8-a1a2-2bf9d04bc399")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Stiffener"
+		(at -1.5 -2 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "d228aeee-29a8-4334-b183-e5e9d09b91f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Total thickness 0.3mm"
+		(at 6.25 0.5 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "f4669be9-521c-43ec-bd27-d8b79133fa64")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "df079a53-df0f-46a9-96d3-315e11696104")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 0.5 0.75)
+		(size 0.3 1.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "367ffbe0-5657-45b7-b2c3-56f7e6f44c82")
+	)
+	(pad "2" smd rect
+		(at 1 0.75)
+		(size 0.3 1.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "cb7f3444-f773-4f4a-9d8b-eaaad30d3faf")
+	)
+	(pad "3" smd rect
+		(at 1.5 0.75)
+		(size 0.3 1.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "6c6bc7f5-c301-4a0f-b294-5779bc68eb11")
+	)
+	(pad "4" smd rect
+		(at 2 0.75)
+		(size 0.3 1.5)
+		(layers "F.Cu" "F.Mask")
+		(uuid "ad37189d-92d3-416f-8459-9c783d59a633")
+	)
+	(embedded_fonts no)
+)

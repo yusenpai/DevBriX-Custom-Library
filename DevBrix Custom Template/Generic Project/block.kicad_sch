@@ -1,0 +1,14 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "9bc34624-9d78-498f-ad22-48d3d13d2bd6")
+	(paper "A4")
+	(title_block
+		(title "<project name>")
+		(date "<date>")
+		(rev "<revision code>")
+		(company "DevBriX")
+	)
+	(lib_symbols)
+)

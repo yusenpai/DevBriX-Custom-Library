@@ -1,0 +1,173 @@
+(footprint "FH12-6S-0.5SVA"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.25 -3.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "4d586fa6-9a0a-450c-8dd5-dc4e04833ec0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "FH12-6S-0.5SVA"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "f5d06995-ce7f-4b37-afe0-70fa6ad134e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.hirose.com/en/product/document?clcode=&productname=&series=FH12&documenttype=Catalog&lang=en&documentid=D31648_en"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8a4ef1bd-ceb8-4fe9-bfd4-9262febaac90")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "FH12 Series, 0.5mm and 1mm Pitch FPC/FFC Connectors"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c89351f-85f5-4f8d-ab5b-2856e2ee30a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -3.25 -3)
+		(end 3.25 3)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "e72f6475-aa4f-4fdb-b1f5-736d1fa2ef99")
+	)
+	(fp_rect
+		(start -3.25 -3)
+		(end 3.25 3)
+		(stroke
+			(width 0.2)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "f305abcb-d5ba-4672-9079-550b510fac71")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "02dbb92d-1466-48fd-bc1a-efb5879b962c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at 1.25 -1.5)
+		(size 0.6 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -0.1)
+		(uuid "6319d8c5-d1dd-41dd-b138-f9debdf07773")
+	)
+	(pad "2" smd rect
+		(at 0.75 1.5)
+		(size 0.6 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -0.1)
+		(uuid "2d7f2739-ed63-40e2-b91a-5443c85fdb93")
+	)
+	(pad "3" smd rect
+		(at 0.25 -1.5)
+		(size 0.6 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -0.1)
+		(uuid "6129d9b3-89f3-4577-b9d5-3c0cb2348d79")
+	)
+	(pad "4" smd rect
+		(at -0.25 1.5)
+		(size 0.6 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -0.1)
+		(uuid "c7abc123-1762-4b03-b1f0-46c8cc295cd0")
+	)
+	(pad "5" smd rect
+		(at -0.75 -1.5)
+		(size 0.6 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -0.1)
+		(uuid "7f2b559c-1bb6-48ce-8cb1-156437aa50fb")
+	)
+	(pad "6" smd rect
+		(at -1.25 1.5)
+		(size 0.6 1.5)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -0.1)
+		(uuid "0fd10b00-e108-4dee-aefd-37b5367d81c6")
+	)
+	(pad "MP" smd rect
+		(at -2.25 -1.35)
+		(size 0.8 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -0.15)
+		(uuid "aa7ef24c-1531-4b3c-98ff-8e853601e987")
+	)
+	(pad "MP" smd rect
+		(at -2.25 1.35)
+		(size 0.8 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -0.15)
+		(uuid "fd63bc58-da02-4cfe-86bc-fb3d8a5fe406")
+	)
+	(pad "MP" smd rect
+		(at 2.25 -1.35)
+		(size 0.8 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -0.15)
+		(uuid "4d69c47b-f2d4-48aa-bcd7-7dfe54393450")
+	)
+	(pad "MP" smd rect
+		(at 2.25 1.35)
+		(size 0.8 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(solder_paste_margin -0.15)
+		(uuid "2aaf4454-aba6-4976-b09a-364959467bb1")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_CUSTOM_3D_DIR}/FH12-6S-0.5SV.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

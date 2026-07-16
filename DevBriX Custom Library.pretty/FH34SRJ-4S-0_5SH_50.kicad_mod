@@ -1,0 +1,247 @@
+(footprint "FH34SRJ-4S-0_5SH_50"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "-55℃~+105℃ 0.3mm 0.5mm 1mm 4P Double-Sided Contacts, Top and Bottom Entry Gold Phosphor bronze Surface Mount, Right Angle SMD,P=0.5mm, FFC, FPC (Flat Flexible) Connector Assemblies ROHS")
+	(tags "C596732 FH34SRJ-4S-0.5SH(50) FPC-SMD_FH34SRJ-4S-0.5SH-50 HRS(Hirose)")
+	(property "Reference" "REF**"
+		(at 0 -2.880061 0)
+		(layer "F.SilkS")
+		(uuid "42506c55-724f-401f-bcaa-1f446f01b04b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "~"
+		(at 0 2.929947 0)
+		(layer "F.Fab")
+		(uuid "5ffe9f5c-2049-40b3-b6ef-fe941f1806e6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2103031833_HRS-Hirose-FH34SRJ-4S-0-5SH-50_C596732.pdf"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a21a82e7-8356-4d83-b27c-b579cebe2c74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "-55℃~+105℃ 0.3mm 0.5mm 1mm 4P Double-Sided Contacts, Top and Bottom Entry Gold Phosphor bronze Surface Mount, Right Angle SMD,P=0.5mm, FFC, FPC (Flat Flexible) Connector Assemblies ROHS"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "59a43c72-a1b5-44df-817d-38641fab430c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C596732"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "478f193f-4ff8-46a8-97fe-eafe0f791d76")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2.031953 -0.991059)
+		(end -2.031953 1.167945)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "89c4bcea-8969-4986-9f29-4918237a2cc7")
+	)
+	(fp_line
+		(start -1.777953 -1.880061)
+		(end -1.777953 -0.991059)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cae443b7-a20d-41f6-9619-346ff0a1cd21")
+	)
+	(fp_line
+		(start -1.777953 -0.991059)
+		(end -2.031953 -0.991059)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a47e7a3b-4fd4-409e-8716-2f08ed8dc42f")
+	)
+	(fp_line
+		(start -1.777953 1.929947)
+		(end 1.778054 1.929947)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ab0e8d74-cb4d-4059-aa7b-c6b121c45351")
+	)
+	(fp_line
+		(start 0.508052 0.024943)
+		(end 0.762052 -0.229058)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f785ffae-3bfb-4780-af7e-842ffeb5ecbd")
+	)
+	(fp_line
+		(start 0.508052 0.024943)
+		(end 1.016053 0.024943)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4242357a-25c5-4a6f-bca9-b89c49177b56")
+	)
+	(fp_line
+		(start 0.762052 -0.229058)
+		(end 1.016053 0.024943)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4a2715d6-79bb-43ce-b463-213b8fcae81c")
+	)
+	(fp_line
+		(start 1.778054 -1.880061)
+		(end -1.777953 -1.880061)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "23da312a-6480-49dd-913e-362b9c7f57de")
+	)
+	(fp_line
+		(start 1.778054 -0.991059)
+		(end 1.778054 -1.880061)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c87ada1a-090f-4284-b1e2-b3476333ff6b")
+	)
+	(fp_line
+		(start 1.778054 1.929947)
+		(end 1.778054 1.77907)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "823c1e66-2684-47f7-80f7-b5a5a892ffcc")
+	)
+	(fp_line
+		(start 2.032055 -0.991059)
+		(end 1.778054 -0.991059)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "374fdf64-b095-4c6d-b450-ff917e6800e7")
+	)
+	(fp_line
+		(start 2.032055 1.167945)
+		(end 2.032055 -0.991059)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d2546768-4b58-444b-af8c-6f324d62ddde")
+	)
+	(fp_poly
+		(pts
+			(xy -1.777953 -1.880086) (xy 1.778054 -1.880086) (xy 1.778054 -1.118085) (xy -1.777953 -1.118085)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.Fab")
+		(uuid "3d25f601-7b46-47a2-adfd-914260eae210")
+	)
+	(pad "1" smd rect
+		(at 0.750191 -1.225044)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4f8a0b3d-173c-4eee-84bf-1c0f7e158455")
+	)
+	(pad "2" smd rect
+		(at 0.250064 -1.225044)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d07f764d-3a00-4034-a47c-042e98f249de")
+	)
+	(pad "3" smd rect
+		(at -0.249809 -1.225044)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2e2f2ff4-5e15-4224-82ef-cc7675972b2e")
+	)
+	(pad "4" smd rect
+		(at -0.749936 -1.225044)
+		(size 0.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "764e308f-1f06-46ba-a400-5f43cd7c574e")
+	)
+	(pad "5" smd rect
+		(at -1.749936 1.22479)
+		(size 0.4 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e3e8fbfe-781b-46b6-8a8c-1ca950eb5a68")
+	)
+	(pad "6" smd rect
+		(at 1.749936 1.225044)
+		(size 0.4 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "0f4ce80d-5904-4c39-9640-25d60b35affc")
+	)
+	(embedded_fonts no)
+	(model "${KICAD_CUSTOM_3D_DIR}/FH34SRJ-4S-0_5SH_50.wrl"
+		(offset
+			(xyz 0 0 0.02)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)
