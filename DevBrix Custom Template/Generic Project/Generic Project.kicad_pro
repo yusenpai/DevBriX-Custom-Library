@@ -62,7 +62,7 @@
           "hatch_thickness": 1.0,
           "min_clearance": 0.1,
           "min_island_area": 10.0,
-          "min_thickness": 0.2,
+          "min_thickness": 0.1,
           "pad_connection": 2,
           "remove_islands": 0,
           "thermal_relief_gap": 0.5,
@@ -74,55 +74,9 @@
           "gap": 0.0,
           "via_gap": 0.0,
           "width": 0.0
-        },
-        {
-          "gap": 0.11,
-          "via_gap": 0.15,
-          "width": 0.11
         }
       ],
-      "drc_exclusions": [
-        [
-          "clearance|184725000|66300000|948901e0-6782-42a1-bd93-c403b98a6503|7ad0f709-5b9d-4c7a-b840-ad5cd731b71a",
-          ""
-        ],
-        [
-          "clearance|184725000|66300000|948901e0-6782-42a1-bd93-c403b98a6503|ec89a1e0-fe24-4ac7-9283-9e14ad120bce",
-          ""
-        ],
-        [
-          "clearance|191750000|113625000|53e39274-7762-4edf-b386-8eb3a6cd2972|7958bfc3-884e-44b0-8119-8fa6c65fbea6",
-          ""
-        ],
-        [
-          "clearance|191750000|114875000|53e39274-7762-4edf-b386-8eb3a6cd2972|a566cc92-a148-4b99-bab6-7af7a259dc67",
-          ""
-        ],
-        [
-          "solder_mask_bridge|183125600|66300000|fdb2697e-e611-4c74-9be4-685c67921343|ec89a1e0-fe24-4ac7-9283-9e14ad120bce",
-          ""
-        ],
-        [
-          "solder_mask_bridge|183128693|66229160|34ec82df-02a6-41c5-b5ec-40a75bcc6f2a|ec89a1e0-fe24-4ac7-9283-9e14ad120bce",
-          ""
-        ],
-        [
-          "solder_mask_bridge|184725000|66300000|7ad0f709-5b9d-4c7a-b840-ad5cd731b71a|948901e0-6782-42a1-bd93-c403b98a6503",
-          ""
-        ],
-        [
-          "solder_mask_bridge|184725000|66300000|ec89a1e0-fe24-4ac7-9283-9e14ad120bce|948901e0-6782-42a1-bd93-c403b98a6503",
-          ""
-        ],
-        [
-          "solder_mask_bridge|191750000|113625000|53e39274-7762-4edf-b386-8eb3a6cd2972|7958bfc3-884e-44b0-8119-8fa6c65fbea6",
-          ""
-        ],
-        [
-          "solder_mask_bridge|191750000|114875000|53e39274-7762-4edf-b386-8eb3a6cd2972|a566cc92-a148-4b99-bab6-7af7a259dc67",
-          ""
-        ]
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -194,10 +148,10 @@
       "rules": {
         "max_error": 0.005,
         "min_clearance": 0.1,
-        "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.1,
+        "min_connection": 0.1,
+        "min_copper_edge_clearance": 0.2,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.15,
+        "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -205,10 +159,10 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.1,
+        "min_through_hole_diameter": 0.3,
         "min_track_width": 0.1,
         "min_via_annular_width": 0.05,
-        "min_via_diameter": 0.2,
+        "min_via_diameter": 0.4,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
         "solder_mask_to_copper_clearance": 0.005,
@@ -225,7 +179,7 @@
       ],
       "teardrop_parameters": [
         {
-          "td_allow_use_two_tracks": true,
+          "td_allow_use_two_tracks": false,
           "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
@@ -236,7 +190,7 @@
           "td_width_to_size_filter_ratio": 0.9
         },
         {
-          "td_allow_use_two_tracks": true,
+          "td_allow_use_two_tracks": false,
           "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
@@ -247,7 +201,7 @@
           "td_width_to_size_filter_ratio": 0.9
         },
         {
-          "td_allow_use_two_tracks": true,
+          "td_allow_use_two_tracks": false,
           "td_curve_segcount": 1,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
@@ -260,9 +214,7 @@
       ],
       "track_widths": [
         0.0,
-        0.11,
-        0.25,
-        0.4
+        0.1
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -296,12 +248,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.2,
-          "drill": 0.1
-        },
-        {
-          "diameter": 0.35,
-          "drill": 0.2
+          "diameter": 0.45,
+          "drill": 0.3
         }
       ],
       "zones_allow_external_fillets": false
@@ -345,7 +293,7 @@
         0,
         0,
         0,
-        1,
+        0,
         0,
         0,
         0,
@@ -359,7 +307,7 @@
         1,
         0,
         0,
-        1,
+        0,
         0,
         2,
         2,
@@ -373,7 +321,7 @@
         0,
         0,
         0,
-        1,
+        0,
         0,
         1,
         0,
@@ -387,25 +335,11 @@
         0,
         0,
         0,
-        1,
+        0,
         1,
         2,
         1,
         1,
-        2
-      ],
-      [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
-        1,
-        0,
-        0,
-        0,
-        0,
         2
       ],
       [
@@ -423,17 +357,31 @@
         2
       ],
       [
-        1,
-        1,
-        1,
-        1,
-        1,
         0,
-        1,
-        1,
-        1,
-        1,
-        1,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
         2
       ],
       [
@@ -443,37 +391,9 @@
         1,
         0,
         0,
-        1,
         0,
         0,
         0,
-        0,
-        2
-      ],
-      [
-        0,
-        2,
-        1,
-        2,
-        0,
-        0,
-        1,
-        0,
-        2,
-        2,
-        2,
-        2
-      ],
-      [
-        0,
-        2,
-        0,
-        1,
-        0,
-        0,
-        1,
-        0,
-        2,
         0,
         0,
         2
@@ -482,10 +402,38 @@
         0,
         2,
         1,
+        2,
+        0,
+        0,
+        0,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
         1,
         0,
         0,
+        0,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
         1,
+        1,
+        0,
+        0,
+        0,
         0,
         2,
         0,
@@ -585,8 +533,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.1,
         "tuning_profile": "",
-        "via_diameter": 0.8,
-        "via_drill": 0.4,
+        "via_diameter": 0.45,
+        "via_drill": 0.3,
         "wire_width": 6
       }
     ],
@@ -779,7 +727,13 @@
       "dashed_lines_gap_length_ratio": 3.0,
       "default_line_thickness": 6.0,
       "default_text_size": 50.0,
-      "field_names": [],
+      "field_names": [
+        {
+          "name": "LCSC",
+          "url": false,
+          "visible": false
+        }
+      ],
       "hop_over_size_choice": 2,
       "intersheets_ref_own_page": false,
       "intersheets_ref_prefix": "[",
@@ -821,7 +775,7 @@
         "uuid": "bbb297ea-2e6a-46f2-b87d-d2ef1d3bc220"
       }
     ],
-    "used_designators": "",
+    "used_designators": "U1,#PWR1-2,R1-2",
     "variants": []
   },
   "sheets": [
